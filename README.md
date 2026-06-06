@@ -9,7 +9,7 @@
 
 ## 🖥️ Демо
 
-![Скриншот приложения](https://via.placeholder.com/800x400?text=Bonus+Calculation+System)
+![Скриншот приложения](https://github.com/vitaly-dev83/bonus-system-frontend/blob/main/расчет%20премии.png?raw=true)
 
 > 💡 *Рекомендуется сделать реальный скриншот вашего приложения и заменить ссылку выше*
 
