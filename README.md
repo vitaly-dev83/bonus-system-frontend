@@ -9,8 +9,8 @@
 
 ## 🖥️ Демо
 
-![Скриншот](https://github.com/vitaly-dev83/
-bonus-system-frontend/blob/main/Расчет премии.png?raw=true)
+<img width="567" height="459" alt="Расчет премии" src="https://github.com/user-attachments/assets/b98b83e3-73c8-4b58-a43d-8a56eba070cd" />
+
 
 > 💡 *Рекомендуется сделать реальный скриншот вашего приложения и заменить ссылку выше*
 
