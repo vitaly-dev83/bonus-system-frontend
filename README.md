@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🎯 Система расчета мотивации сотрудников
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-19-blue)
+![MobX](https://img.shields.io/badge/MobX-6.16-orange)
+![Storybook](https://img.shields.io/badge/Storybook-10.4-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Available Scripts
+**Enterprise-решение для расчета премий на основе KPI** с поддержкой высоких нагрузок (30 000+ пользователей).
 
-In the project directory, you can run:
+## 🖥️ Демо
 
-### `npm start`
+![Скриншот приложения](https://via.placeholder.com/800x400?text=Bonus+Calculation+System)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> 💡 *Рекомендуется сделать реальный скриншот вашего приложения и заменить ссылку выше*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📋 О проекте
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Корпоративная система для автоматизации расчета мотивации сотрудников. Позволяет:
+- Создавать и управлять KPI показателями
+- Автоматически рассчитывать премию с учетом весов
+- Сохранять данные по месяцам
+- Документировать компоненты через Storybook
 
-### `npm run build`
+### Ключевые возможности
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Функция | Описание |
+|---------|----------|
+| ✅ **Управление KPI** | Добавление, удаление, редактирование показателей |
+| ✅ **Авто-расчет** | Мгновенный пересчет премии при изменении данных |
+| ✅ **Выбор периода** | Переключение по месяцам с сохранением истории |
+| ✅ **Локальное хранение** | Данные сохраняются в localStorage |
+| ✅ **Storybook** | Документация всех компонентов |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Технологии
 
-### `npm run eject`
+| Технология | Назначение |
+|------------|------------|
+| **React 19** | Пользовательский интерфейс |
+| **MobX** | Управление состоянием |
+| **Webpack** | Сборка проекта |
+| **CSS Modules** | Изолированные стили |
+| **Storybook** | Документация компонентов |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Готовность к интеграции
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🔄 REST API (структура запросов подготовлена)
+- 📡 Kafka/WebSocket (слой для подключения реализован)
+- 💾 Любое бэкенд-решение
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Установка и запуск
 
-## Learn More
+### Требования
+- Node.js (версия 18 или выше)
+- npm (устанавливается вместе с Node.js)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Шаг 1: Клонирование репозитория
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/vitaly-dev83/bonus-system-frontend.git
+cd bonus-system-frontend
