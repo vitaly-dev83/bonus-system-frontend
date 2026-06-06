@@ -1,0 +1,129 @@
+.widget {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.input {
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.kpiSection {
+  margin: 20px 0;
+}
+
+.kpiTitle {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.kpiList {
+  list-style: none;
+  padding: 0;
+}
+
+.kpiItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #e9ecef;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.kpiName {
+  font-weight: bold;
+  min-width: 100px;
+  color: #2c3e50;
+}
+
+.kpiValue {
+  min-width: 100px;
+  color: #6c757d;
+}
+
+.kpiWeight {
+  min-width: 80px;
+  color: #6c757d;
+}
+
+.kpiBonus {
+  min-width: 120px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.deleteButton {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.deleteButton:hover {
+  background: #c82333;
+  transform: scale(1.05);
+}
+
+.totalSection {
+  margin-top: 20px;
+  padding: 15px;
+  background: #d4edda;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.totalLabel {
+  font-size: 18px;
+  font-weight: bold;
+  color: #155724;
+}
+
+.loader {
+  text-align: center;
+  padding: 50px;
+  color: #6c757d;
+  font-size: 18px;
+}
+
+.error {
+  text-align: center;
+  padding: 20px;
+  color: #dc3545;
+  background: #f8d7da;
+  border-radius: 8px;
+  margin: 20px;
+}
